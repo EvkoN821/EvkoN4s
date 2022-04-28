@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    margin-bottom: 7px;
+}
+
+.error {
+    color: rgba(245, 46, 46, 1);
+    border: 1px solid rgba(245, 46, 46, 1);
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+#send-btn {
+    width: 100%;
+}
